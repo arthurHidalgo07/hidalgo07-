@@ -1,0 +1,81 @@
+.pai{
+width:100%;
+display: flex;
+flex-direction:row;
+flex-wrap:wrap;
+height:auto;
+}
+.filho1{
+width:15%;
+height:20vh;
+background-color:darkgreen;
+justify-content:center;
+display: flex;
+}
+.filho1 img{
+width:35%;
+height:16vh;
+margin-top:5%;
+}
+.filho2{
+width:85%;
+height:20vh;
+background-color:darkgreen;
+display: flex;
+justify-content:flex-end;
+}
+#d1{
+width:20%;
+height:20%;
+margin-top:2%;
+margin-right:2%;
+border-radius:1vh;
+font-size:3vh;
+}
+.filho3{
+width:100%;
+height:15vh;
+justify-content:center;
+display: flex;
+}
+.filho3 img{
+justify-content:center;
+width:70%;
+height:35vh;
+margin-top:3%;
+}
+.filho4{
+width:70%;
+height:60vh;
+background-color:;
+}
+.filho4 img{
+justify-content:center;
+width:80%;
+height:70vh;
+margin-top:20%;
+margin-left:2%;
+}
+.filho5{
+width:30%;
+height:60vh;
+background-color:;
+margin-top:14%;
+}
+.filho5 img{
+justify-content:center;
+width:100%;
+height:19vh;
+margin-right:50%;
+}
+.filho6{
+width:100%;
+height:20vh;
+background-color:darkgreen;
+margin-top:10%;
+}
+@media(min-width:540px) and (max-width:760px){
+	.filho1,.filho2,.filho4,.filho5,.filho6{
+		width:100%;
+	}
+}
